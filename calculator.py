@@ -1,13 +1,13 @@
-class calculator:
+class Calculator:
 
-    def add(a,b):
+    def add(self, a,b):
         return a + b
 
-    def sub(a,b):
+    def sub(self, a,b):
         return a - b
 
-    def divi(a,b):
+    def divi(self, a,b):
         return a / b
 
-    def multi(a,b):
+    def multi(self, a,b):
         return a * b
