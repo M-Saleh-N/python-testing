@@ -4,5 +4,3 @@ def test_divi():
     assert divi(15, 5) == 3
     assert divi(12, 1) == 12
 
-def divi(a,b):
-    return a / b
