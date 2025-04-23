@@ -1,7 +1,7 @@
-from calculator import calculator
+from calculator import Calculator
 
 def test_multi():
-    calc = calculator()
+    calc = Calculator()
 
     assert calc.multi(1, 2) == 2
     assert calc.multi(15, 0) == 0

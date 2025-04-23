@@ -1,7 +1,7 @@
-from calculator import calculator
+from calculator import Calculator
 
 def test_sub():
-    calc = calculator()
+    calc = Calculator()
     
     assert calc.sub(5, 2) == 3
     assert calc.sub(0, 0) == 0

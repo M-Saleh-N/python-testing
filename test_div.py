@@ -1,6 +1,9 @@
-def test_divi():
+from calculator import Calculator
 
-    assert divi(2, 2) == 1
-    assert divi(15, 5) == 3
-    assert divi(12, 1) == 12
+def test_divi():
+    calc = Calculator()
+
+    assert calc.divi(2, 2) == 1
+    assert calc.divi(15, 5) == 3
+    assert calc.divi(12, 1) == 12
 
